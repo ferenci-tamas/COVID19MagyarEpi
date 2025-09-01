@@ -66,7 +66,7 @@ ui <- fluidPage(
   titlePanel("A magyarországi koronavírus járvány valós idejű epidemiológiája"),
   
   p("A weboldal és az elemzések teljes forráskódja ",
-    a("itt", href = "https://github.com/tamas-ferenci/COVID19MagyarEpi", target = "_blank"),
+    a("itt", href = "https://github.com/ferenci-tamas/COVID19MagyarEpi", target = "_blank"),
     "érhető el. Írta: ", a("Ferenci Tamás", href = "http://www.medstat.hu/", target = "_blank",
                            .noWS = "outside"),
     ". Az adatok utolsó frissítésének időpontja:", paste0(format(max(RawData$Date),
